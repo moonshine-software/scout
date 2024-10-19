@@ -5,13 +5,12 @@ declare(strict_types=1);
 namespace MoonShine\Scout\Components;
 
 use MoonShine\AssetManager\Js;
-use MoonShine\Contracts\Core\HasAssetsContract;
 use MoonShine\UI\Components\MoonShineComponent;
 
 /**
  * @method static static make(string $key = 'search', string $action = '', string $placeholder = '')
  */
-final class Search extends MoonShineComponent implements HasAssetsContract
+final class Search extends MoonShineComponent
 {
     protected string $view = 'moonshine-scout::components.search';
 
