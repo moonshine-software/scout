@@ -1,6 +1,6 @@
 # MoonShine Scout Search
 
-[Documentation](https:://moonshine-laravel.com/docs/3.x/model-resource/search#scout)
+[Documentation](https://moonshine-laravel.com/docs/3.x/model-resource/search#global)
 
 ## Requirements
 
