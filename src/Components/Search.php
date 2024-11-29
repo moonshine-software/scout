@@ -26,7 +26,7 @@ final class Search extends MoonShineComponent
         }
     }
 
-    public function getAssets(): array
+    protected function assets(): array
     {
         return [
             Js::make('vendor/moonshine-scout/scout.js')
