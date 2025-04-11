@@ -18,7 +18,7 @@
         </a>
 
         <x-moonshine::modal name="global-search" title="Search" :closeOutside="true">
-            <x-moonshine::form name="search">
+            <x-moonshine::form name="search" @submit.prevent="() => false">
                 <x-moonshine::form.input
                     class="search-input"
                     x-model.debounce.300ms="query"
